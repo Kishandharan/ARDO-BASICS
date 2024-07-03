@@ -22,12 +22,5 @@ void loop(){
     
   }
   
-  if(slideswitch_state == LOW){
-    
-     Serial.print("Total Time = ");
-     Serial.println(totaltime);
-    
-  }
-  
   totaltime = 0; //Resetting the total time to zero
 }
